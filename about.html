@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style> 
+    body {
+        background-color: rgb(124, 61, 61);
+        font-family: Arial, sans-serif;
+        color: white;
+        margin: 0;
+        padding: 20px;
+    } 
+    h1, h2 {
+        text-align: center;
+    }
+    #Instruments {
+        
+        padding: 20px;
+        background-color: gray ;
+        border-radius: 10px;
+    }
+    .instrument-list {
+        display: flex;
+        justify-content: space-between;
+    }
+    .instrument-column {
+        flex: 1;
+        margin: 10px;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    ul li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid white;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.1); /* Hafif transparan beyaz */
+    }
+    ul li img {
+        margin-left: 10px;
+        border: 1px solid white;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.2); /* Hafif transparan beyaz */
+    }
+    p {
+        font-size: 24pt;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    ul{
+        color: brown;
+    }
+    .w3-bar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        background-color: rgba(255, 255, 255, 0.8);
+        z-index: 1000;
+    }
+    .w3-button {
+        margin-right: 10px;
+        border: none;
+        cursor: pointer;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+    .w3-button:hover {
+        background-color: #ddd;
+    }
+    .w3-button.w3-black {
+        background-color: #d830bc;
+        color: #fff;
+    }
+    .w3-button.w3-teal {
+        background-color: #008080;
+        color: #fff;
+    }
+    .w3-button.w3-green {
+        background-color: #4CAF50;
+        color: #fff;
+    }
+    .w3-button.w3-red {
+        background-color: #f44336;
+        color: #fff;
+    }
+    </style>
+</head>
+<body> 
+    <div class="w3-bar">
+        <a href="index.html"><button class="w3-button w3-black">Home</a></button>
+        <a href="profinInd.html"><button class="w3-button w3-teal">Professionals</a></button>
+        <a href="about.html"><button class="w3-button w3-green">About</a> </button>
+        <a href="contact.html"><button class="w3-button w3-red">Contact Us</a> </button>
+    </div>
+    <h1 style="color:brown;font-size: 40px; padding-top: 20px;"> WHO WE ARE?</h1>
+    <h2 style="color: rgb(211, 230, 230);border: 3px solid rgba(54, 50, 50, 0.507);">We are people who demand their soul to the music. For this goal we created a place that people can freely use some musical instrumentals.</h2>
+    
+    <div id="Instruments">
+        <p style="color: black; font-style:bold 'Courier New', Courier, monospace;">Instruments That You Can Use Freely in Our Campus</p>
+        <div class="instrument-list">
+            <div class="instrument-column">
+                <ul style="font-size: 40px;">
+                    <li>Drums <img style="height: 100px; width: auto;" src="assets/drums.png" alt="Drums"></li>
+                    <li>Acoustic Guitar <img style="height: 100px; width: auto;" src="assets/acousticguitar.png" alt="Acoustic Guitar"></li>
+                    <li>Violin <img style="height: 100px; width: auto;" src="assets/violin.png" alt="Violin"></li>
+                </ul>
+            </div>
+            <div class="instrument-column">
+                <ul style="font-size: 40px;">
+                    <li>Harp <img style="height: 100px; width: auto;" src="assets/harp.png" alt="Harp"></li>
+                    <li>Bass Guitar <img style="height: 100px; width: auto;" src="assets/bassGuitar.png" alt="Bass Guitar"></li>
+                    <li>Piano <img style="height: 100px; width: auto;" src="assets/piano.png" alt="Piano"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <a style="color: #008080;" href="profinInd.html"><p>You can see some professional musicians who lived or still alive from our page.</p></a>
+</body>
+</html>
